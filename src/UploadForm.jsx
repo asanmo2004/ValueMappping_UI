@@ -51,7 +51,7 @@ function UploadForm() {
 
   try {
     const response = await axios.post(
-      "http://localhost:8080/VM/process", 
+      "https://cpi-assistant-2-0.onrender.com/VM/process", 
       requestData,
       {
         headers: {
